@@ -12,137 +12,145 @@
 </head>
 
 <body>
-    <header>
-        <div class="menu">
+    <main>
+        <header>
+            <nav class="menu">
+                <div class="container">
+                    <a class="menu__logo" href="#">
+                        <span class="logo__item">Alexandr Mehighlove</span>
+                        <span class="logo__item">Frontend</span>
+                    </a>
+                    <ul class="menu__nav">
+                        <li class="nav__item"><a href="" class="nav__link">О себе</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Услуги</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Портфолио</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Блог</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="title">
+                <div class="container">
+                    <img src="assets/img/main_img.jpg" alt="" class="title__img">
+                    <div class="title__text">
+                        <h1 class="title__header">
+                            Проектирую удобные и недорогие в разработке сайты под задачи вашего бизнеса.
+                        </h1>
+                        <p class="title__description">
+                            Привет! Меня зовут Александр Михайлов. Я frontend-разработчик из Астрахани. Мои
+                            специализации:
+                            UI/UX-дизайн, HTML-верстка, посадка верстки на Wordpress. У меня можно заказать разработку
+                            сайта
+                            под
+                            ключ или любую из работ отдельно.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="portfolio">
             <div class="container">
-                <a class="menu__logo" href="#">
-                    <span class="logo__item">Alexandr Mehighlove</span>
-                    <span class="logo__item">Frontend</span>
-                </a>
-                <ul class="menu__nav">
-                    <li class="nav__item"><a href="" class="nav__link">О себе</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Услуги</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Портфолио</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Блог</a></li>
-                </ul>
+                <div class="portfolio__list">
+                    <div class="portfolio__item">
+                        <img src="" alt="" class="item__img">
+                        <h3 class="item__header">TestReportBuilder</h3>
+                        <p class="item__description">A little simple web project</p>
+                    </div>
+                </div>
+                <button class="show_more">Показать еще</button>
             </div>
-        </div>
-        <div class="title">
+        </section>
+
+        <section class="services">
             <div class="container">
-                <img src="" alt="" class="title__img">
-                <div class="title__text">
-                    <h1 class="title__header">
-                        Проектирую удобные и недорогие в разработке сайты под задачи вашего бизнеса.
-                    </h1>
-                    <p class="title__description">
-                        Привет! Меня зовут Александр Михайлов. Я frontend-разработчик из Астрахани. Мои специализации:
-                        UI/UX-дизайн, HTML-верстка, посадка верстки на Wordpress. У меня можно заказать разработку сайта
-                        под
-                        ключ или любую из работ отдельно.
-                    </p>
+                <h2 class="services__header">
+                    Услуги
+                </h2>
+                <div class="services__container">
+                    <div class="services__item">
+                        <p class="service">Разработка дизайн-макета сайта</p>
+                        <p class="service">Верстка сайта по готовому макету</p>
+                    </div>
+                    <div class="services__item">
+                        <p class="service">Посадка сайта/верстки на Wordpress</p>
+                        <p class="service">Комплексная разработка сайта под ключ</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </section>
 
-    <section class="portfolio">
-        <div class="container">
-            <div class="portfolio__list">
-                <div class="portfolio__item">
-                    <img src="" alt="" class="item__img">
-                    <h3 class="item__header">TestReportBuilder</h3>
-                    <p class="item__description">A little simple web project</p>
-                </div>
-            </div>
-            <button class="show_more">Показать еще</button>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="container">
-            <h2 class="services__header">
-                Услуги
-            </h2>
-            <div class="services__container">
-                <div class="services__item">
-                    <p class="service">Разработка дизайн-макета сайта</p>
-                    <p class="service">Верстка сайта по готовому макету</p>
-                </div>
-                <div class="services__item">
-                    <p class="service">Посадка сайта/верстки на Wordpress</p>
-                    <p class="service">Комплексная разработка сайта под ключ</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="process">
-        <div class="container">
-            <div class="process__left">
-                <h2 class="process__header">Процесс</h2>
-                <p class="process__description">
-                    Создание цифрового продукта проходит несколько этапов: каждый из них согласуется с клиентом, после
-                    этого начинается работа над следующим этапом.
-                </p>
-            </div>
-            <div class="process__right">
-                <div class="process__item">
-                    <h3 class="process__header">Встреча</h3>
+        <section class="process">
+            <div class="container">
+                <div class="process__left">
+                    <h2 class="process__header">Процесс</h2>
                     <p class="process__description">
-                        Встреча/онлайн-беседа. Оговариваем концепцию, сроки и технические детали проекта: порядок
-                        согласования этапов, передача текстов, фотографий, гайдбуков.
+                        Создание цифрового продукта проходит несколько этапов: каждый из них согласуется с клиентом,
+                        после
+                        этого начинается работа над следующим этапом.
                     </p>
                 </div>
-                <div class="process__item">
-                    <h3 class="process__header">Концепт</h3>
-                    <p class="process__description">
-                        Создание, доработка и согласование визуального концепта сайта. Прототипирование. Составление
-                        технического задания. Разработка дизайн-макета сайта.
-                    </p>
+                <div class="process__right">
+                    <div class="process__item">
+                        <h3 class="process__header">Встреча</h3>
+                        <p class="process__description">
+                            Встреча/онлайн-беседа. Оговариваем концепцию, сроки и технические детали проекта: порядок
+                            согласования этапов, передача текстов, фотографий, гайдбуков.
+                        </p>
+                    </div>
+                    <div class="process__item">
+                        <h3 class="process__header">Концепт</h3>
+                        <p class="process__description">
+                            Создание, доработка и согласование визуального концепта сайта. Прототипирование. Составление
+                            технического задания. Разработка дизайн-макета сайта.
+                        </p>
+                    </div>
+                    <div class="process__item">
+                        <h3 class="process__header">Разработка сайта</h3>
+                        <p class="process__description">
+                            Передача дизайна на верстку(в случае. если разработка ведется со стороны клиента) или
+                            разработка
+                            сайта с моей стороны.
+                        </p>
+                    </div>
                 </div>
-                <div class="process__item">
-                    <h3 class="process__header">Разработка сайта</h3>
-                    <p class="process__description">
-                        Передача дизайна на верстку(в случае. если разработка ведется со стороны клиента) или разработка
-                        сайта с моей стороны.
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about__right">
+                    <h2 class="about__header">О себе</h2>
+                    <p class="about__description">
+                        Участник и бронзовый призер регионального этапа чемпионата “World Skills Russia 2019” в
+                        компетенции
+                        “Веб-разработка и дизайн”. На данный момент, я фрилансер и веду свою деятельность из России, но
+                        в
+                        будующем собираюсь выйти на международный рынок. Фармануть немного баблишка, так сказатьб ;)
+                        Побдробнее обо мне описано тут.
                     </p>
+                    <p class="copyright">&copy; Александр Михайлов</p>
+                </div>
+                <img src="" alt="" class="about__img">
+            </div>
+        </section>
+
+        <section class="more">
+            <h2 class="more__header">Подробнее обо всех услугах</h2>
+            <button class="learn_more">Подробнее</button>
+        </section>
+
+        <footer>
+            <div class="conainer">
+                <p class="copyrigh">&copy; Alexandr Mehighlove 2020</p>
+                <div class="social">
+                    <div class="social__item"><a href="#" class="social__link"></a></div>
+                    <div class="social__item"><a href="#" class="social__link"></a></div>
+                    <div class="social__item"><a href="#" class="social__link"></a></div>
+                    <div class="social__item"><a href="#" class="social__link"></a></div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="about">
-        <div class="container">
-            <div class="about__right">
-                <h2 class="about__header">О себе</h2>
-                <p class="about__description">
-                    Участник и бронзовый призер регионального этапа чемпионата “World Skills Russia 2019” в компетенции
-                    “Веб-разработка и дизайн”. На данный момент, я фрилансер и веду свою деятельность из России, но в
-                    будующем собираюсь выйти на международный рынок. Фармануть немного баблишка, так сказатьб ;)
-                    Побдробнее обо мне описано тут.
-                </p>
-                <p class="copyright">&copy; Александр Михайлов</p>
-            </div>
-            <img src="" alt="" class="about__img">
-        </div>
-    </section>
-
-    <section class="more">
-        <h2 class="more__header">Подробнее обо всех услугах</h2>
-        <button class="learn_more">Подробнее</button>
-    </section>
-
-    <footer>
-        <div class="conainer">
-            <p class="copyrigh">&copy; Alexandr Mehighlove 2020</p>
-            <div class="social">
-                <div class="social__item"><a href="#" class="social__link"></a></div>
-                <div class="social__item"><a href="#" class="social__link"></a></div>
-                <div class="social__item"><a href="#" class="social__link"></a></div>
-                <div class="social__item"><a href="#" class="social__link"></a></div>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
 </body>
 
 </html>
